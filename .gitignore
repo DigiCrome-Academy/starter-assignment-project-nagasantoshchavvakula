@@ -1,0 +1,18 @@
+#----------------------------------------------------------
+# Git ignore rules (Python + IDE)
+# Purpose: To exclude files and directories that should not be tracked by Git, such as virtual environments, compiled files, and IDE-specific settings.
+#----------------------------------------------------------
+# IDE-specific files
+.vscode/
+.idea/
+# Python virtual environment
+venv
+.venv
+venv/
+.venv/
+# Compiled Python files
+__pycache__/
+*.pyc
+*.pyo
+
+
